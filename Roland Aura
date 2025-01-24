@@ -1,0 +1,3789 @@
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(1, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(2, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(3, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(4, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(5, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(6, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(7, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(8, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(9, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(10, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(11, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(12, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(13, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(14, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(15, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(16, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(17, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(18, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(19, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(20, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(21, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(22, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(23, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(1, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(2, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(3, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(4, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(5, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(6, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(7, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(8, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(9, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(10, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(11, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(12, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(13, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(14, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(15, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(16, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(17, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(18, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(19, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(20, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(21, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(22, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(1, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(2, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(3, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(4, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(5, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(6, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(7, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(8, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(9, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(10, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(11, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(12, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(13, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(14, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(15, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(16, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(17, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(18, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(19, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(20, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(21, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(22, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(24, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(25, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(26, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(27, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(28, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(29, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(30, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(31, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(32, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(33, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+delay(34, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(35, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(36, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(37, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(38, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(39, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(40, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(41, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(42, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(43, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(45, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(46, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
+
+delay(47, function()
+
+    local p = game.Players.LocalPlayer
+local c = p.Character
+local h = c:FindFirstChild("HumanoidRootPart")
+
+-- Function to set the color sequence for particle emitters
+local function setColorSequence(object, color)
+    for _, descendant in ipairs(object:GetDescendants()) do
+        if descendant:IsA("ParticleEmitter") then
+            descendant.Color = ColorSequence.new(color)
+        end
+    end
+end
+
+local function d(e)
+    local f = game.ReplicatedStorage.Resources.Sunrise.AtomicSlash[e]
+    local g = f:Clone()
+    g.Parent = workspace
+    g.CFrame = h.CFrame * CFrame.new(0, 0, 0) * CFrame.Angles(0, math.pi / 0.1, 0)
+
+    -- Set the particle color before emitting
+    setColorSequence(g, Color3.fromRGB(0,0,0)) -- Example: Purple color
+
+    for _, a in ipairs(g:GetDescendants()) do
+        if a:IsA("Attachment") then
+            for _, b in ipairs(a:GetChildren()) do
+                if b:IsA("ParticleEmitter") then
+                    b:Emit(2)
+                end
+            end
+        end
+    end
+end
+
+d("Part")
+
+end)
